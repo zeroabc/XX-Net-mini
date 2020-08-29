@@ -80,7 +80,7 @@ ready = False
 
 def log_info():
     print("        ------------------------------------------------------")
-    print('        XX-Net Version 4.4.3')
+    print('        XX-Net Version 4.5.1')
     print("        Python Version     : %s" %(platform.python_version()))    
     print("        Listen Address     : %s:%d" %(front.config.listen_ip, front.config.listen_port))
     if len(front.config.GAE_APPIDS):
