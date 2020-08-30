@@ -1,9 +1,29 @@
 #### XX-Net-mini 4.5.1
 Mini version of [XX-Net](https://github.com/XX-net/XX-Net).
 
-Usage 
+Mini版XX-Net特点:
+
+1. 使用最新版XX-Net
+
+2. 去掉网页配置功能(web_control)
+
+3. 去掉自动下载
+
+4. 去掉X-tunnel
+
+5. 去掉扫描和删除ip的功能, 直接持久使用707个固定ip, 解决ip骤降的问题(XX-Net/data/gae_proxy/good_ip.txt)
+
+6. 去掉XX-Net自带的hypack, pyasn1, dnslib ,hyperframe等模块, 使用PyPI最新的相关模块
+
+7. 去掉pac
+
+8. 统一配置文件: XX-Net/data/config.json
+
+Mini版XX-Net, 在Linux和Windows环境下正常运行(其他环境未作测试)
+
+Usage: 
     
-    pip3 install hpack hyper PySocks cryptography pyasn1 dnslib hyperframe -U
+    pip3 install hpack hyper cryptography pyasn1 dnslib hyperframe -U
     pip3 -vvv install --upgrade --force-reinstall cffi
     
     git clone https://github.com/miketwes/XX-Net-mini.git
