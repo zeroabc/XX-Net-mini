@@ -23,9 +23,7 @@ Mini版XX-Net, 在Linux和Windows环境下正常运行(其他环境未作测试)
 
 Usage: 
     
-    pip3 install hpack hyper cryptography pyasn1 dnslib hyperframe -U
-    pip3 -vvv install --upgrade --force-reinstall cffi
-    
+    pip install hpack hyper cryptography pyasn1 dnslib hyperframe PySocks PyOpenSSL
     git clone https://github.com/miketwes/XX-Net-mini.git
     cd XX-Net-mini/code/default/launcher/ && python3 start.py
     
