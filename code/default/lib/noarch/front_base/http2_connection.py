@@ -3,8 +3,6 @@ import threading
 import socket
 import errno
 import struct
-from signal import signal, SIGPIPE, SIG_DFL, SIG_IGN
-signal(SIGPIPE, SIG_IGN)
 
 from .http_common import *
 
