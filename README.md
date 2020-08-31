@@ -25,7 +25,13 @@ Usage:
     
     pip install hpack hyper cryptography pyasn1 dnslib hyperframe PySocks PyOpenSSL
     git clone https://github.com/miketwes/XX-Net-mini.git
+    
+    # Linux: 
     cd XX-Net-mini/code/default/launcher/ && python3 start.py
+    
+    # Windows:
+    cd XX-Net-mini\code\default\launcher && python start.py
+    
     
     Please wait 1 or 2 seconds, till the terminal show:
         "Network is ok, you can start to surf the internet!"
